@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <server>
+	<port>1800</port>
+    </server>
+    <db>
+	<driver>mysql</driver>
+	<host>localhost</host>
+	<port>3306</port>
+	<user>root</user>
+	<passwd>root</passwd>
+	<dbname>cake_2_0</dbname>
+    </db>
+    <log>
+	<level>7</level>
+	<prefix></prefix>
+	<remote>
+	    <enable>0</enable>
+	    <ip>127.0.0.1</ip>
+	    <port>514</port>
+	</remote>
+	<stdout>
+	    <enable>1</enable>
+	</stdout>
+	<file>
+	    <enable>1</enable>
+	</file>
+    </log>
+</config>

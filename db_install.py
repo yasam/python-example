@@ -20,12 +20,12 @@ if __name__ == '__main__':
 	    rec.name = u"admin"
 	    rec.email = u"admin@credowork.com"
 	    rec.username = u"admin"
-	    rec.password = u'f07ae83654b5111b17f0cec8df953f7675892210'
+	    rec.password = u'4bf1ba73878123d199ba2e743c236cf6ae3fadaa'
 	    rec.role = u'admin'
 	    rec.group_id = 0
 	    
-#	    model.session.add(rec)
-#	    model.session.commit()
+	    model.session.add(rec)
+	    model.session.commit()
 	    print "default user 'admin' added."
 	except Exception, e:
 	    print str(e)

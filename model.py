@@ -97,7 +97,7 @@ class Device(Base):
 	name = Column(Unicode(64))
 	serial = Column(Unicode(64))
 
-class Status(Base):
+class State(Base):
 	__tablename__ = 'states'
 	id = Column(Integer, primary_key=True)
 	status = Column(Unicode(64))

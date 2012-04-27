@@ -1,0 +1,10 @@
+{
+"version":"1",
+"command":{
+	"name":"SUBSCRIBE",
+		"params":{
+			    "NAME":"TEST2",
+					"SERIAL":"2345"
+		}
+    }
+}

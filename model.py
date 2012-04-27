@@ -104,8 +104,9 @@ class State(Base):
 	name = Column(Unicode(64))
 	serial = Column(Unicode(64))
 	ip = Column(Unicode(64))
-	ses_start = Column(DateTime, nullable=False, default=datetime.utcnow)
-	ses_end = Column(DateTime, nullable=False, default=datetime.utcnow)
+	port= Column(Unicode(64))
+	ses_start = Column(DateTime, nullable=False, default=datetime.now)
+	ses_end = Column(DateTime, nullable=True)
 
 class User(Base):
 	__tablename__ = 'users'

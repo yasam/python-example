@@ -96,6 +96,8 @@ class Device(Base):
 	id = Column(Integer, primary_key=True)
 	name = Column(Unicode(64))
 	serial = Column(Unicode(64))
+	owner = Column(Unicode(64))
+	comment = Column(Unicode(255))
 
 class State(Base):
 	__tablename__ = 'states'
